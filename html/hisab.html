@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/hisab.css" />
+    <title>Bank-Hisab</title>
+  </head>
+  <body>
+    <h1>Bangldesh Bank Coustomer</h1>
+
+    <div class="main">
+      <div class="diposit">
+        <input
+          class="input"
+          id="dp"
+          type="text"
+          placeholder="Inter your amount"
+        />
+        <br />
+        <button class="btn" onclick="deposit()">Deposit</button>
+      </div>
+      <div class="text">
+        <h2>Total</h2>
+        <h5 id="total" class="total"></h5>
+        <h5 class="tk">Tk only /-</h5>
+      </div>
+      <div class="Withdraw">
+        <input
+          class="input"
+          id="wt"
+          type="text"
+          placeholder="Inter your amount"
+        />
+        <br />
+        <button class="btn" onclick="witdraw()">Withdraw</button>
+      </div>
+    </div>
+
+    <script src="../js/hisab.js"></script>
+  </body>
+</html>
